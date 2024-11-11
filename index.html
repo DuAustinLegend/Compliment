@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Message for Mimi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome, Mimi</h1>
+      <p>Your presence here lights up my world.</p>
+    </header>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+      <div id="chat-box"></div>
+      <input type="text" id="user-input" placeholder="Say hi..." />
+      <button onclick="sendMessage()">Send</button>
+    </section>
+
+    <!-- Fireworks and Final Message -->
+    <div id="fireworks"></div>
+    <div id="final-message" style="display:none;">
+      <h2>Seeing you makes me happy, Mimi!</h2>
+      <p>Your beauty shines brighter than all the stars.</p>
+    </div>
+  </div>
+
+  <script src="chatbot.js"></script>
+  <script src="fireworks.js"></script>
+</body>
+</html>
